@@ -44,7 +44,7 @@ const DashboardPage = () => {
           Apply to your dream job in seconds!
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-          Applying to jobs shouldn't be a full-time job
+          Applying to jobs shouldn&apos;t be a full-time job
         </p>
     </div>
     <div className="px-4 md:px-20 lf:px-32 space-y-4">

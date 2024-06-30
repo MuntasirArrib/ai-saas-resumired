@@ -212,7 +212,7 @@ const ResumeBulletPage = () => {
                 name="resume"
                 render={({ field }) => (
                   <FormItem className="col-span-12 lg:col-span-10">
-                    <FormLabel>Paste your Resume's Experience section below</FormLabel>
+                  <FormLabel>Paste your Resume&apos;s Experience section below</FormLabel>
                     <FormControl>
                       <Textarea
                         placeholder={`Systems Analyst (Company Name)
@@ -234,8 +234,8 @@ Melbourne, Victoria (2021-Present)
                 name="jobDescription"
                 render={({ field }) => (
                   <FormItem className="col-span-12 lg:col-span-10">
-                    <FormLabel>Enter the 'Responsibilities/ Qualifications' section of the Job Description below</FormLabel>
-                    <FormControl>
+                    <FormLabel>Enter the &apos;Responsibilities/ Qualifications&apos; section of the Job Description below</FormLabel>
+                      <FormControl>
                       <Textarea
                         placeholder={` Your role responsibilities will also be to:
 

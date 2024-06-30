@@ -192,7 +192,7 @@ const CoverLetterPage = () => {
                 name="hiringManager"
                 render={({ field }) => (
                   <FormItem className="col-span-12 lg:col-span-10">
-                    <FormLabel>Hiring Manager's Name (Optional)</FormLabel>
+                    <FormLabel>Hiring Manager&apos;s Name (Optional)</FormLabel>
                     <FormControl>
                       <Input
                         type="text"
