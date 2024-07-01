@@ -31,7 +31,7 @@ export const LandingHero = () => {
         Developed with Career Coaches. Apply to your dream job in seconds!
       </div>
       <div>
-        <Link href={isSignedIn ? "/dashboard" : "https://accounts.resumiredai.com/sign-up"}>
+        <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
           <Button variant="premium" className="md:text-lg p-4 md:p-6 rounded-full font-semibold">
             Start Generating For Free
           </Button>
